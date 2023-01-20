@@ -1,0 +1,13 @@
+### Unix, Linux, and Windows Command Prompt Redirection
+
+*Redirecting Input*
+
+eg. we compile `echo_eof.c` program and place the exe version in a file called `echo_eof`to run the program type the exe name:
+
+`echo_eof`
+
+This takes input from keyboard.
+
+Lets say we want input from a `text` file called `words`, to do this just run:
+
+`echo_eof < words`
